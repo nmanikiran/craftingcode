@@ -4,7 +4,7 @@
 PARENT_DIR=$(pwd)  # Assumes script is run from the parent folder
 
 # Output directory for all builds
-OUTPUT_DIR="$PARENT_DIR/gh-pages"
+OUTPUT_DIR="$PARENT_DIR/docs"
 
 # Ensure output directory exists and is clean
 rm -rf "$OUTPUT_DIR"
